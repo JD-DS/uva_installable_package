@@ -1,4 +1,4 @@
 pytest
 mock
 
-git+https://github.com/JD-DS/uva_installable_package.git@v1.2.1
+git+https://github.com/JD-DS/uva_installable_package.git@v1.1.1
