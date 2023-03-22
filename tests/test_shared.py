@@ -58,3 +58,7 @@ sys.configure_mock(platform='win32')
 def test_fail_skipif():
     print('My Platform is: ' , sys.platform)
     assert sys.platform == 'linux'
+
+
+def test_circle_ci():
+    pass
