@@ -53,7 +53,7 @@ sys = mock.MagicMock()
 sys.configure_mock(platform='win32')
 
 
-#@pytest.mark.xfail
+@pytest.mark.xfail
 @pytest.mark.skipif(sys.platform == 'linux', reason = 'Skipping Test.... this test does not run on linux')
 def test_fail_skipif():
     print('My Platform is: ' , sys.platform)
